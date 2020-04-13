@@ -1,0 +1,44 @@
+
+header, section, footer, aside, nav, main, article, figure {
+  display: block;
+}
+
+body {
+	background-image:url('img/cover.jpg');
+	font-family:Helvetica,arial,sans-serif;
+}
+
+nav {
+	background-color:red;
+	margin-left:2rem;
+	display:block;
+	border-bottom: 1px solid black;
+}
+
+nav li {
+	font-size:1.5rem;
+    display: inline-block;
+}
+
+nav li:hover {
+	background-color:blue;
+}
+
+nav ul {
+    list-style-type: none;
+    padding-left: 0;
+}
+
+article {
+	background-color:gray;
+	color:white;
+}
+
+.button {
+	background-color:red;
+	height:2em;
+	width:15em;
+	text-align:center;
+	vertical-align:center;
+}
+
