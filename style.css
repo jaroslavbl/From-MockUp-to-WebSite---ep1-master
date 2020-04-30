@@ -8,8 +8,7 @@ body {
 	font-family:Helvetica,arial,sans-serif;
 }
 
-nav {
-	background-color:red;
+nav {	
 	margin-left:2rem;
 	display:block;
 	border-bottom: 1px solid black;
@@ -18,10 +17,12 @@ nav {
 nav li {
 	font-size:1.5rem;
     display: inline-block;
+	color:white;
+	padding-right:1em;
 }
 
 nav li:hover {
-	background-color:blue;
+	background-color:red;
 }
 
 nav ul {
@@ -29,16 +30,16 @@ nav ul {
     padding-left: 0;
 }
 
-article {
-	background-color:gray;
+article {	
 	color:white;
+	border:5px;
+	border-color:black;
 }
 
 .button {
 	background-color:red;
 	height:2em;
-	width:15em;
-	text-align:center;
-	vertical-align:center;
+	width:15em;	
+	display:block;	
 }
 
