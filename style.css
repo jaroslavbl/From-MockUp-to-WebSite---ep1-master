@@ -12,22 +12,32 @@ nav {
 	margin-left:2rem;
 	display:block;
 	border-bottom: 1px solid black;
+	margin-top:0px;
+	padding-top:0px;
+	position:relative;	
 }
 
-nav li {
+nav > ul > li {
 	font-size:1.5rem;
     display: inline-block;
 	color:white;
-	padding-right:1em;
+	padding-left:0.2em;
+	padding-right:0.2em;
+	margin-right:1em;
+	height:2.2em;	
+	outline:none;	
 }
 
 nav li:hover {
 	background-color:red;
 }
 
-nav ul {
-    list-style-type: none;
-    padding-left: 0;
+nav > ul {
+	line-height:3em;
+    list-style-type: none;    	
+	padding:0;
+	margin-top:0px;
+	margin-left:0px;
 }
 
 article {	
