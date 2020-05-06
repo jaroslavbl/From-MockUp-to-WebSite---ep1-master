@@ -6,6 +6,7 @@ header, section, footer, aside, nav, main, article, figure {
 body {
 	background-image:url('img/cover.jpg');
 	font-family:Helvetica,arial,sans-serif;
+	margin-top:0px;
 }
 
 nav {	
