@@ -7,6 +7,7 @@ body {
 	background-image:url('img/cover.jpg');
 	font-family:Helvetica,arial,sans-serif;
 	margin-top:0px;
+	background-color:#000000;
 }
 
 nav {	
@@ -44,14 +45,17 @@ nav > ul {
 article {	
 	color:white;
 	border:5px;
-	border-color:black;
+	border-color:black;	
 }
 
 .button {
 	background-color:red;
 	height:2em;
-	width:15em;	
+	width:14em;	
 	display:block;
 	padding-top:1em;
 }
 
+.heading {
+	font-weight:200;
+}
