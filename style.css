@@ -67,5 +67,6 @@ article {
 
 .employee {
 	font-size:0.9em;
-	display:inline-block;	
+	display:inline-block;
+	width:30em;
 }
