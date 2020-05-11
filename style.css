@@ -13,7 +13,7 @@ body {
 nav {	
 	margin-left:2rem;
 	display:block;
-	border-bottom: 1px solid black;
+	/*border-bottom: 1px solid black;*/
 	margin-top:0px;
 	padding-top:0px;
 	position:relative;	
@@ -58,4 +58,14 @@ article {
 
 .heading {
 	font-weight:200;
+}
+
+.btnrounded {
+	border:5px rounded;
+	border-color:yellow;
+}
+
+.employee {
+	font-size:0.9em;
+	display:inline-block;	
 }
